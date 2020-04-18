@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>fdn_infraestructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Commands\" />
+    <Folder Include="Data\Queries\" />
+    <Folder Include="Data\POCOs\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Web\" />
+  </ItemGroup>
+
+</Project>
