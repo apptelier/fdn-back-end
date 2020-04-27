@@ -7,15 +7,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fdn-web-api", "src\fdn-web-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A75CC1AE-0D99-4431-A94D-F55BD0C631BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdn-core", "src\fdn-core\fdn-core.csproj", "{66D052EA-CB3E-46B9-A4C7-F285C1F689FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fdn-core", "src\fdn-core\fdn-core.csproj", "{66D052EA-CB3E-46B9-A4C7-F285C1F689FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdn-infraestructure", "fdn-infraestructure\fdn-infraestructure.csproj", "{E66C36B5-C9EA-4505-9BA3-E68122E27CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fdn-infraestructure", "fdn-infraestructure\fdn-infraestructure.csproj", "{E66C36B5-C9EA-4505-9BA3-E68122E27CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdn-utils", "fdn-utils\fdn-utils.csproj", "{B0D1ABBB-72AF-4100-9DED-BA1BC072D8FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fdn-utils", "fdn-utils\fdn-utils.csproj", "{B0D1ABBB-72AF-4100-9DED-BA1BC072D8FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2BC74D32-7348-4EF0-8FDA-E2D8A44964B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdn-unit-tests", "tests\fdn-unit-tests\fdn-unit-tests.csproj", "{F1CC3766-4A65-4CFB-B893-07450CD29E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fdn-unit-tests", "tests\fdn-unit-tests\fdn-unit-tests.csproj", "{F1CC3766-4A65-4CFB-B893-07450CD29E55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AF78E35-A432-4751-8255-1E4141F72A61}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
